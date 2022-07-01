@@ -83,3 +83,28 @@ img {
     font-weight: 400;
     text-transform: uppercase;
 }
+
+@media (max-width: 1111px) {
+    body {
+        background: hsl(233, 47%, 7%);
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        align-content: center;
+        font-size: 15px;
+        color: #ffff;
+    }
+
+    .card {
+        margin-top: 178px;
+        width: 1111px;
+        height: 449px;
+        background: hsl(244, 38%, 16%);
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        border-radius: 10px;
+    }
+    
+
+}
